@@ -4,7 +4,7 @@ const CONFIG = {
     name: "2mook2",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "이무기",
-    bio: "언젠가 \uD83D\uDC09 될 이무기",
+    bio: "언젠가 \uD83D\uDC32 될 이무기",
     email: "2moook2@gmail.com",
     linkedin: "2moook2",
     github: "2mook2",
@@ -12,14 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `2mook2`,
-      href: "https://github.com/2mook2/morethan-log",
+      name: `Dementia_Analysis`,
+      href: "https://github.com/2mook2/Dementia_Analysis",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "2mook2",
-    description: "welcome to 2mook2!",
+    title: "Welcome to 2mook2!",
+    description: "Welcome to 2mook2!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
