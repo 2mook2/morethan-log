@@ -69,6 +69,6 @@ const CONFIG = {
 }
 
 const { CONFIG: { link } } = CONFIG;
-const projectName = link.includes('/project') ? 'Project' : 'Service';
+const projectName = link.includes('/projects') ? 'Project' : 'Service';
 
 module.exports = { CONFIG: { ...CONFIG, projectName } };
