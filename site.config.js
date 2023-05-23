@@ -68,4 +68,7 @@ const CONFIG = {
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 
-module.exports = { CONFIG }
+const { CONFIG: { link } } = CONFIG;
+const projectName = link.includes('/project') ? 'Project' : 'Service';
+
+module.exports = { CONFIG: { ...CONFIG, projectName } };
