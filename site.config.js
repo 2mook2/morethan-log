@@ -4,7 +4,7 @@ const CONFIG = {
     name: "2mook2",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "이무기",
-    bio: "언젠가 \uD83D\uDC32 될 이무기",
+    bio: "\uD83D\uDC32 될 거야",
     email: "2moook2@gmail.com",
     linkedin: "",
     github: "2mook2",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Welcome to 2mook2",
-    description: "Welcome to 2mook2",
+    title: "2mook2의 승천일지",
+    description: "2mook2의 승천일지",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
