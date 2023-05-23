@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "2mook2의 승천일지",
-    description: "2mook2의 승천일지",
+    title: "2mook2 의 승천일지",
+    description: "2mook2 의 승천일지",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
