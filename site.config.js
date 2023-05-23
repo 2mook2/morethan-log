@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Welcome to 2mook2 !",
-    description: "Welcome to 2mook2 !",
+    title: "Welcome to 2mook2",
+    description: "Welcome to 2mook2",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
