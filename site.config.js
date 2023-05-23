@@ -68,4 +68,15 @@ const CONFIG = {
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 
-module.exports = { CONFIG }
+// module.exports = { CONFIG }
+// Project 대신에 Service로 표시될 부분 수정
+const { link } = CONFIG;
+const projectName = link.includes('/project') ? 'Project' : 'Service';
+
+// Service 대신에 Project로 표시되도록 수정된 CONFIG 객체
+const updatedConfig = {
+  ...CONFIG,
+  projectName,
+};
+
+module.exports = { CONFIG: updatedConfig };
