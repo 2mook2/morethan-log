@@ -6,7 +6,7 @@ const CONFIG = {
     role: "이무기",
     bio: "언젠가 \uD83D\uDC32 될 이무기",
     email: "2moook2@gmail.com",
-    linkedin: "2moook2",
+    linkedin: "",
     github: "2mook2",
     instagram: "",
   },
