@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "2mook2 의 승천일지",
     description: "2mook2 의 승천일지",
-    theme: "auto", // ['light', 'dark', 'auto']
+    theme: "light", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
