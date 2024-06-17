@@ -14,8 +14,6 @@ const CONFIG = {
     {
       name: `Dementia_Analysis`,
       href: "https://github.com/yonghyeun/Dementia_Analysis",
-    },
-    {
       name: `HOD: Harmful Object Detection`,
       href: "https://github.com/poori-nuna/HOD-Benchmark-Dataset",
     },
