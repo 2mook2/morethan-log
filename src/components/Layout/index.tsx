@@ -1,5 +1,4 @@
 import Header from "./Header"
-import PropTypes from "prop-types"
 import MetaConfig, { MetaConfigProps } from "./MetaConfig"
 
 type Props = {
@@ -35,3 +34,4 @@ Layout.propTypes = {
 }
 
 export default Layout
+
