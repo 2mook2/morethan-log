@@ -29,9 +29,6 @@ const Layout: React.FC<Props> = ({
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node,
-}
-
 export default Layout
+
 
